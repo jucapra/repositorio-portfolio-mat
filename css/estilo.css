@@ -1,0 +1,35 @@
+body {
+  background-image: url("../imagens/saladeaula.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#titulo1 {
+  background: #3E5151;
+  background: linear-gradient(to right, #D7DCE1, #2A2D30);
+  color: white;
+  font-size: 45px;
+}
+
+#nome {
+  color: white;
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+}
+
+h3 {
+  color: #D7DCE1;
+}
+
+h2:hover {
+  background-color: #ffb546;
+}
+
+a:link {
+  color: #D7DCE1;
+
+}
+
+a:hover {
+  color: rgb(0, 119, 255);
+}

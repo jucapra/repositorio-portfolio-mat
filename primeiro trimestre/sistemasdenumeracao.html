@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title> Sistemas de numeração </title>
+</head>
+
+<body bgcolor="#BDFF86 ">
+    <h1>1- Sistemas de numeração</h1>
+    <p> De forma simplificada podemos dizer que um Sistema de Numeração é uma forma de organizar e representar uma certa
+        quantidade de números, a diferença de um sistema para o outro são as suas bases. Existem vários tipos de
+        sistemas, os mais comuns em informática são:</p>
+    <ul>
+        <li> Sistema <b>Binário;</b></li>
+        <li> Sistema <b>Octal;</b></li>
+        <li> Sistema <b>Decimal;</b></li>
+        <li> Sistema <b>Hexadecimal;</b></li>
+    </ul>
+
+    <h2> Sistema Decimal </h2>
+    <p> O sistema decimal é o mais conhecido e o mais simples entre os outros sistemas. Ele é formado pela base 10, ou
+        seja, utiliza utiliza dez síbolos para representar todos os números (0,1,2,3,4,5,6,7,8,9). <br> Veja a
+        decomposição de um número decimal:</p>
+    <p><b>7.365</b> = 7000 + 300 + 60 + 5 = 7 . 10 <sup>3</sup> + 3 . 10 <sup>2</sup> + 6 . 10 <sup>1</sup> + 5 . 10
+        <sup>0</sup>
+    </p>
+
+    <h2> Sistema Binário </h2>
+    <p>O sistema binário tem que se ter um pouco mais de atenção na hora de fazer os cálculos, porque assim como o
+        próprio nome já diz ele, é representado por apenas dois símbolos 0 e 1 e é de base 2. Por isso quando se tem um
+        número maior requer um pouco mais de atenção na hora de fazer os cálculos para não se confundir.<br>
+        Mas não é difícil de se entender, esse sistema possiu uma "regrinha" assim como os decimais, após a repetição
+        dos
+        dez números os próximos devem ser arranjos do 1 com cada um dos 10 símbolos, então temos 10, 11, 12, 13, ...,
+        depois o 2 com todos os 10 símbolos ..., depois o 3, assim por diante.<br>
+        Para os binários segue a mesma lógica: usados o 0 e 1, o próximo será o arranjo 10, depois 11, depois 100, 101,
+        110, 111, etc.
+    </p>
+
+    <p> Relação entre o sistema Decimal e o Binário</p>
+    <img src="imagens_1tri/DecimalparaBinário.jpeg" height="280" width="380" alt="tabela de números bináros "
+        title="tabela de números binários" align="middle">
+    <ul>
+        <li>
+            <p><b> Notação: (18)<sub>10</sub> = (10010)<sub>2</sub></b></p>
+        </li>
+    </ul>
+
+    <h3> Conversão: base 10 → base 2</h3>
+    <p>Existem duas forma de fazer está conversão, divisão sucessiva por 2, ou decomposição do número na base 2.<br>
+        Eu achei a conversão por divisão sucessiva por 2 mais fácil, então irei esplicar essa.
+    </p>
+    <p> É bem simples e sem mistério. <br>
+    <ol>
+        <b>1º Passo:</b>Você deve fazer a divisão do número decimal por 2 e guardar o resto.<br>
+        <b>2º Passo:</b> Dividida o quociente novamente por 2 e guarde o resto.<br>
+        <b>3º Passo:</b>Repetir o processo até termos o quociente igual a 1. <br>
+        <b>4º Passo:</b>O número na base 2 será a sequência de restos obtidos das divisões,
+        juntamente com o último quociente, começando pela direita.
+    </ol>
+    </p>
+    <p> Exemplo:</p>
+    <img src="imagens_1tri/DecomposiçãoDecimal-Binário.jpeg" height="250" width="440" alt="tabela de números bináros "
+        title="tabela de números binários" align="middle">
+
+    <h2><u>Adição e Subtração</u> de números binários</h2>
+    <p> As operações de adição e subtração de Binários seguem as mesmas regras usadas nos Decimais.<br>
+        Nessa parte do contúdo senti um pouco mais de dificuldade na subtração de números binários, mas depois que
+        entende o ráciocinio lógico fica mais fácil.</p>
+
+    <p>Regras da <b>Adição</b></p>
+    <img src="imagens_1tri/adicaobinarios.jpeg" height="200" width="440" alt="tabela de adição números bináros "
+        title="tabela de adiçao números binários" align="middle">
+
+    <p>Regras da <b>Subtração</b></p>
+    <img src="imagens_1tri/subtracaobinarios.jpeg" height="200" width="440" alt="tabela de subtração números bináros "
+        title="tabela de subtraçao números binários" align="middle">
+
+    <p>Exemplo de <b><u>Subtração:</u></b></p>
+    <img src="imagens_1tri/subbinarios.jpeg" height="100" width="220" alt="subtração números bináros "
+        title="subtraçao números binários" align="middle">
+
+    <h2>Sistema Octal</h2>
+    <p>O sistema octal é um sistema de numeração de base 8, ou seja, recorre a 8 símbolos (0,1,2,3,4,5,6,7) para a
+        representação de um determinado valor. Quando os 8 símbolos são todos usados, 0, 1, 2, 3, 4, 5, 6, 7, os
+        próximos devem ser arranjos do 1 com cada um dos 8 símbolos, então temos 10, 11, 12, 13, 14, 15, 16, 17, daí
+        muda para os arranjos com 2, e assim por diante, mesma lógica que os binários.
+    </p>
+<img src="imagens_1tri/sistemaoctal.jpeg" height="250" width="440" alt="tabela de números octais "
+title="tabela de números octais" align="middle">
+<img src="imagens_1tri/octais.jpeg" height="250" width="200" alt="tabela de números octais "
+title="tabela de números octais" align="right">
+
+<p><a href="sistemasdenumeracao.html">Voltar ao topo</a></p>
+<p><a href="file:///C:/Users/User/Documents/portifolio%20de%20matem%C3%A1tica/index.html">Voltar a página inicial</a></p>
+
+
+</body>
+
+
+</html>

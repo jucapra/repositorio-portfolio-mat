@@ -1,0 +1,38 @@
+
+  body {
+    background: #a8ff78;  
+    background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  
+    background: linear-gradient(to right, #78ffd6, #a8ff78);
+  }
+  
+  #titulo1 {
+      background: #54cc78;
+      color: white;
+  }
+
+  #intro {
+    color:#15c415
+  }
+  h1 {
+color:rgb(26, 112, 52);
+background: #54cc78;
+  }
+
+  a:link {
+      color: #D7DCE1;
+    }
+    
+    a:hover {
+      color: rgb(0, 119, 255);
+    }
+
+    #auto{
+      color:rgb(77, 19, 95);
+background: #a66dcc;
+    }
+
+
+
+
+
+  

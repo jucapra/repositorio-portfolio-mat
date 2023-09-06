@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link href="css/cadastro/cadastro.css" rel="stylesheet">
+</head>
+
+<body>
+    <center>
+        <table cellpadding="10">
+
+            <td>
+                <h3><a href="primeirotrimestre.html">Primeiro Trimestre</a></h3>
+            </td>
+            <td>
+                <h3><a href="segundotrimestre.html">Segundo Trimestre </a></h3>
+            </td>
+            <td>
+                <h3><a href="terceirotrimestre.html">Terceiro Trimestre</a></h3>
+            </td>
+            <td>
+                <h3><a href="cadastro.html">Cadastre-se</a></h3>
+            </td>
+            <td>
+                <h3><a href="videos.html">Vídeos</a></h3>
+            </td>
+        </table>
+    </center>
+    <center>
+        <h1>Portifólio de Matématica - CADASTRO</h1>
+    </center>
+
+    <hr>
+    <br>
+    <label for="nome">Nome Completo*:</label>
+    <br>
+    <input type="text" name="nome" placeholder="Digite seu nome completo" size="50">
+    <br>
+    <br>
+
+    <label for="Data">Data de Nascimento:</label>
+    <br>
+    <input type="date" name="data_nascimento">
+    <br>
+    <br>
+
+    <label for="e-mail" method="GET" action="teste.php">E-mail*:</label>
+    <br>
+    <input type="email" name="email" placeholder="Digite seu E-mail" size="50">
+
+
+    <p>Sexo:
+        <br>
+        <input type="radio" name="sexo" value="feminino">Feminino
+        <input type="radio" name="sexo" value="masculino">Masculino
+    </p>
+
+    <p>Você acha que o portifólio está:
+        <br>
+        <select name="avaliacao">
+            <option value="Bom">Bom</option>
+            <option value="Muito bom">Muito bom</option>
+            <option value="Pode melhorar">Pode melhorar</option>
+            <option value="Ruim">Ruim </option>
+        </select>
+    </p>
+    </form>
+
+    <form action="cadastro.html" method="POST">
+
+    </form>
+
+    <form action="cadastro.html" method="POST">
+
+
+        <p>As aulas de Matemática são em qual turno ... <br>
+            <input type="checkbox" name="turno" value="Manhã">Manhã
+            <input type="checkbox" name="turno" value="Tarde">Tarde
+            <input type="checkbox" name="turno" value="Noite">Noite
+        </p>
+
+        <textarea name="comments" cols="60" rows="5"
+            placeholder="Deixe seu comentário sobre meu portifólio..."></textarea>
+
+        <br>
+        <br>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+
+    </form>
+
+    <form action="cadastro.html" method="POST">
+
+    </form>
+    <br>
+
+    <a href="index.html">Voltar a página inicial</a>
+</body>
+
+</html>
